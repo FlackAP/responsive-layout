@@ -1,0 +1,145 @@
+@import url(http://fonts.googleapis.com/css?family=Asap:400,700|Oswald:400,300,700);
+
+body {
+	margin:0;
+	width:100%;
+	height:100%;
+	
+}
+
+header {
+	background:url(train.jpg);	
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	height:400px;
+	width:100%;
+
+}
+
+
+.header {
+	background:rgba(33, 136, 119, 0.94);
+	height:100%;
+	font-family:'Oswald';
+	padding-right:1%;
+	width:100%;
+
+}
+
+.container {
+	width:960px;
+	margin:0 auto;
+	position:relative;
+}
+
+.header h1 {
+	color:white;
+	font-size:86px;
+	padding-top:80px;
+	margin-bottom:10px;
+	text-align: center;
+	
+}
+
+.subtitle {
+	font-weight: 300;
+	font-size:20px;
+	text-align: center;
+	color:rgb(49, 48, 48)
+}
+
+.nav-links {
+	font-weight: 300;
+	font-size: 20px;
+	position:absolute;
+	right:0;
+	font-weight:300;
+	padding-left:10px;
+}
+
+.nav-links a {
+	text-decoration: none;
+	color:white;
+	padding-right:10px;
+	font-weight: 300;
+}
+
+.nav-links a:hover {
+	color:rgba(16, 81, 141, 1);
+}
+
+.mobile-links {
+	width:38%;
+	margin:0 auto;
+	margin-top:40px;
+}
+
+.nav-links2 {
+	text-decoration: none;
+	color:white;
+	text-align:center;
+	font-weight: 300;
+	display:none;
+}
+
+.nav-links2 a {
+	text-decoration:none;
+	color:white;
+}
+.nav-links2 a:first-child {
+	margin-right:32px;
+}
+
+.nav-links2 a:hover {
+	color:rgba(16, 81, 141, 1);
+}
+
+.wrapper {
+	background:white;
+}
+
+
+@media (max-width:980px) {
+	.header h1 {
+		font-size:60px;
+	}
+	.container {
+		width:720px
+	}
+}
+
+@media (max-width:720px) {
+	header {
+		height:280px;
+		background:white;
+	}
+	.header h1 {
+		font-size:45px;
+	}
+	.header span {
+	}
+	.nav-links {
+		display:none;
+	}
+	.nav-links2 {
+		display:inherit;
+	}
+	.container {
+		width:540px;
+	}
+}
+
+@media (max-width:560px) {
+	header {
+		height:250px;
+	}
+	.header h1 {
+		font-size:30px;
+	}
+	.container {
+		width:450px
+	}
+}
+

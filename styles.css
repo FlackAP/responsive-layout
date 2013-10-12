@@ -7,6 +7,8 @@ body {
 	
 }
 
+/*HEADER STARTS HERE*/
+
 header {
 	background:url(train.jpg);	
 	background-size:cover;
@@ -96,8 +98,60 @@ header {
 	color:rgba(16, 81, 141, 1);
 }
 
+/*BODY STARTS HERE*/
+
 .wrapper {
 	background:white;
+	width:960px;
+	margin:0 auto;
+}
+
+.main {
+	border: 1px solid red;
+	display:inline-block;
+	width:64%;
+	font-family:"Asap";
+}
+
+.main h1 {
+	font-family:"Oswald";
+	font-size:45px;
+	color:rgb(45, 100, 23);
+	text-transform:uppercase;
+	margin-bottom:-5px;
+}
+
+.main img {
+	width:25px;
+	height:25px;
+	border-radius:10px;
+	display:inline-block;
+}
+
+.credits span{
+	color:rgb(0, 128, 87)
+}
+
+.credits {
+	display:inline-block;
+	color:grey;
+	font-size:14px;
+}
+
+.text blockquote {
+	font-size:25px;
+	color:rgb(0, 128, 87)
+}
+
+.credits a {
+	color:grey;
+}
+
+.sidebar {
+	border: 1px solid black;
+	display:inline-block;
+	width:32%;
+	vertical-align: top;
 }
 
 
@@ -107,6 +161,12 @@ header {
 	}
 	.container {
 		width:720px
+	}
+	.wrapper {
+		width:720px;
+	}
+	.main h1 {
+		font-size:38px;
 	}
 }
 
@@ -129,6 +189,15 @@ header {
 	.container {
 		width:540px;
 	}
+	.wrapper {
+		width:540px;
+	}
+	.main h1 {
+		font-size:30px;
+	}
+	.text blockquote {
+		font-size:22px;
+	}
 }
 
 @media (max-width:560px) {
@@ -140,6 +209,18 @@ header {
 	}
 	.container {
 		width:450px
+	}
+	.wrapper {
+		width:450px;
+	}
+	.main h1 {
+		font-size: 25px;
+	}
+	.main img {
+		display:none ;
+	}
+	.text blockquote {
+		font-size: 18px;
 	}
 }
 

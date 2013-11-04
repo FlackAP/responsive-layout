@@ -42,7 +42,7 @@ header {
 
 .header h1 {
 	color:white;
-	font-size:86px;
+	font-size:82px;
 	padding-top:80px;
 	margin-bottom:10px;
 	text-align: center;
@@ -53,7 +53,8 @@ header {
 	font-weight: 300;
 	font-size:20px;
 	text-align: center;
-	color:rgb(49, 48, 48)
+	color:rgb(49, 48, 48);
+	margin-top:-8px;
 }
 
 .nav-links {
@@ -111,7 +112,6 @@ header {
 }
 
 .main {
-	border: 1px solid red;
 	display:inline-block;
 	width:64%;
 	font-family:"Asap";
@@ -151,12 +151,33 @@ header {
 	color:grey;
 }
 
+.comments-box {
+	display:inline-block;
+	width:150px;
+	position:relative;
+	background:rgb(167, 186, 204);
+	height:30px;
+}
+
+.comments-box p {
+	padding-left: 20px;
+	color: white;
+	display: inline;
+	position: absolute;
+	top: -8px;
+}
+
+.comments img {
+	border-radius: 0px;
+	height:30px;
+	width:30px;
+}
+
 
 /*SIDEBAR STYLES*/
 
 
 .sidebar {
-	border: 1px solid black;
 	display:inline-block;
 	width:32%;
 	vertical-align: top;
@@ -204,7 +225,44 @@ header {
 	font-family:'asap';
 }
 
+.advertisement {
+	width: 88%;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-left: 23px;
+	display: initial;
+}
 
+
+/*footer*/
+
+footer {
+	height: 151px;
+	margin-top: 30px;
+	background: rgba(33, 136, 119, 0.94);
+	width: 100%;
+	position:relative;
+}
+
+.footer-info {
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+footer img {
+	height:50%;
+	margin-top:40px;
+}
+
+footer p {
+	display: inline-block;
+	position: absolute;
+	padding-bottom: -48px;
+	bottom: 42px;
+	padding-left: 13px;
+	color: rgb(1, 83, 14);
+}
 
 
 @media (max-width:980px) {
@@ -230,6 +288,7 @@ header {
 	.contact li {
 		font-size:12px;
 		margin-top:0;
+		margin-left:0;
 	}
 }
 
@@ -265,8 +324,9 @@ header {
 		font-size:22px;
 	}
 	.sidebar {
-		display:block;
-		width:100%;
+		display: block;
+		width: 100%;
+		height: initial;
 	}
 	.contact-image img {
 		margin-left:39%;
@@ -277,6 +337,13 @@ header {
 	}
 	.contact h3 {
 		margin-left:70px;
+	}
+	.advertisement {
+		width: 39%;
+		display: inherit;
+		margin: 0 auto;
+		margin-top: 17px;
+		text-align: center;
 	}
 }
 

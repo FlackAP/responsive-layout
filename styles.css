@@ -297,6 +297,8 @@ footer p {
 	header {
 		height:280px;
 		background:white;
+		padding-right: 17%;
+		width:139%;
 	}
 	.header h1 {
 		font-size:45px;
@@ -347,6 +349,10 @@ footer p {
 		margin: 0 auto;
 		margin-top: 17px;
 		text-align: center;
+	}
+	.footer {
+		padding-right: 17%;
+		width:139%;
 	}
 }
 

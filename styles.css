@@ -311,6 +311,7 @@ footer p {
 	}
 	.container {
 		width:540px;
+		margin-left:-31px;
 	}
 	.wrapper {
 		width:540px;

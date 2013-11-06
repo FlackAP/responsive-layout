@@ -350,9 +350,9 @@ footer p {
 		margin-top: 17px;
 		text-align: center;
 	}
-	.footer {
-		padding-right: 17%;
+	footer {
 		width:139%;
+		padding-right: 17%;
 	}
 }
 

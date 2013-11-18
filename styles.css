@@ -247,22 +247,21 @@ footer {
 .footer-info {
 	width: 80%;
 	margin: 0 auto;
+	display:block;
 
 }
 
 footer img {
+	display:inline-block;
 	height:50%;
 	margin-top:40px;
 }
 
 footer p {
 	display: inline-block;
-	position: absolute;
 	padding-bottom: -48px;
-	left: 113px;
-	bottom: 42px;
 	padding-left: 13px;
-	color: rgb(1, 83, 14);
+	color:white;
 }
 
 
@@ -377,6 +376,15 @@ footer p {
 	}
 	.text blockquote {
 		font-size: 18px;
+	}
+	footer img {
+		margin: 0 auto;
+		display: block;
+		position: relative;
+		left: -93px;
+	}
+	footer p {
+
 	}
 }
 
